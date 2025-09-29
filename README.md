@@ -42,6 +42,18 @@ widgets_playground/
 │ ├── rawimage_example.dart
 │ └── ...
 │
+├── Painting/
+│ ├── backdropfilter_example.dart
+│ ├── clipoval_example.dart
+│ ├── clippath_example.dart
+│ ├── cliprect_example.dart
+│ └── ...
+│
+├── Input/
+│ ├── autocomplete_example.dart
+│ ├── keyboardlistener_example.dart
+│ └── ...
+│
 └── README.md
 ```
 ---
@@ -58,6 +70,16 @@ widgets_playground/
 
 ### **Images**
 - [`RawImage`](https://api.flutter.dev/flutter/widgets/RawImage-class.html) – Directly paints a `dart:ui.Image`.
+
+### 🎨 Painting & Effects
+- [`BackdropFilter`](https://api.flutter.dev/flutter/widgets/BackdropFilter-class.html) – Applies an image filter (like blur) to the background before painting its child.
+- [`ClipOval`](https://api.flutter.dev/flutter/widgets/ClipOval-class.html) – Clips its child into an oval or circle shape.
+- [`ClipPath`](https://api.flutter.dev/flutter/widgets/ClipPath-class.html) – Clips its child using a custom path defined by a `CustomClipper`.
+- [`ClipRect`](https://api.flutter.dev/flutter/widgets/ClipRect-class.html) – Clips its child to a rectangular area.
+
+### ⌨️ Input
+- [`Autocomplete`](https://api.flutter.dev/flutter/material/Autocomplete-class.html) – Provides text field suggestions as the user types, commonly used for search or form fields.
+- [`KeyboardListener`](https://api.flutter.dev/flutter/widgets/KeyboardListener-class.html) – Detects hardware key presses and releases; useful for games or keyboard shortcuts.
 
 ---
 
