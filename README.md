@@ -79,10 +79,17 @@ widgets_playground/
 - [`RawImage`](https://api.flutter.dev/flutter/widgets/RawImage-class.html) – Directly paints a `dart:ui.Image`.
 
 ### 🎨 Painting & Effects
-- [`BackdropFilter`](https://api.flutter.dev/flutter/widgets/BackdropFilter-class.html) – Applies an image filter (like blur) to the background before painting its child.
-- [`ClipOval`](https://api.flutter.dev/flutter/widgets/ClipOval-class.html) – Clips its child into an oval or circle shape.
-- [`ClipPath`](https://api.flutter.dev/flutter/widgets/ClipPath-class.html) – Clips its child using a custom path defined by a `CustomClipper`.
-- [`ClipRect`](https://api.flutter.dev/flutter/widgets/ClipRect-class.html) – Clips its child to a rectangular area.
+- [**BackdropFilter**](https://api.flutter.dev/flutter/widgets/BackdropFilter-class.html) – Applies an image filter (like blur) to the background before painting its child.  
+- [**ClipOval**](https://api.flutter.dev/flutter/widgets/ClipOval-class.html) – Clips its child into an oval or circle shape.  
+- [**ClipPath**](https://api.flutter.dev/flutter/widgets/ClipPath-class.html) – Clips its child using a custom path defined by a `CustomClipper`.  
+- [**ClipRect**](https://api.flutter.dev/flutter/widgets/ClipRect-class.html) – Clips its child to a rectangular area.  
+- [**CustomPaint**](https://api.flutter.dev/flutter/widgets/CustomPaint-class.html) – Provides a canvas to draw custom shapes, lines, or effects using `CustomPainter`.  
+- [**DecoratedBox**](https://api.flutter.dev/flutter/widgets/DecoratedBox-class.html) – Paints decorations (gradients, shapes, images, borders) before or after its child.  
+- [**FractionalTranslation**](https://api.flutter.dev/flutter/widgets/FractionalTranslation-class.html) – Offsets its child by a fraction of its size.  
+- [**Opacity**](https://api.flutter.dev/flutter/widgets/Opacity-class.html) – Makes its child partially or fully transparent.  
+- [**RotatedBox**](https://api.flutter.dev/flutter/widgets/RotatedBox-class.html) – Rotates its child by 90° increments during layout.  
+- [**Transform**](https://api.flutter.dev/flutter/widgets/Transform-class.html) – Applies 2D/3D transformations (scale, rotate, skew, translate) just before painting.  
+
 
 ### ⌨️ Input
 - [`Autocomplete`](https://api.flutter.dev/flutter/material/Autocomplete-class.html) – Provides text field suggestions as the user types, commonly used for search or form fields.
