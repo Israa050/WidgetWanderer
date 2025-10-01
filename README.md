@@ -29,32 +29,39 @@ Example structure:
 widgets_playground/
 │
 ├── Accessibility/
-│ ├── semantics_example.dart
-│ ├── exclude_semantics_example.dart
-│ ├── merge_semantics_example.dart
-│ └── ...
+│   ├── semantics_example.dart
+│   ├── exclude_semantics_example.dart
+│   ├── merge_semantics_example.dart
+│   └── ...
 │
 ├── Assets/
-│ ├── assetbundle_example.dart
-│ └── ...
+│   ├── assetbundle_example.dart
+│   └── ...
 │
 ├── Images/
-│ ├── rawimage_example.dart
-│ └── ...
-│
-├── Painting/
-│ ├── backdropfilter_example.dart
-│ ├── clipoval_example.dart
-│ ├── clippath_example.dart
-│ ├── cliprect_example.dart
-│ └── ...
+│   ├── rawimage_example.dart
+│   └── ...
 │
 ├── Input/
-│ ├── autocomplete_example.dart
-│ ├── keyboardlistener_example.dart
-│ └── ...
+│   ├── autocomplete_example.dart
+│   ├── keyboard_listener_example.dart
+│   └── ...
+│
+├── Painting/
+│   ├── backdrop_filter_example.dart
+│   ├── clip_oval_example.dart
+│   ├── clip_path_example.dart
+│   ├── clip_rect_example.dart
+│   ├── custom_paint_example.dart
+│   ├── decorated_box_example.dart
+│   ├── fractional_translation_example.dart
+│   ├── opacity_example.dart
+│   ├── rotated_box_example.dart
+│   ├── transform_example.dart
+│   └── ...
 │
 └── README.md
+
 ```
 ---
 
